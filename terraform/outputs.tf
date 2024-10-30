@@ -28,4 +28,3 @@ output "ec2_private_key_pem" {
   value       = tls_private_key.ec2_key_pair.private_key_pem
   sensitive   = true
 }
-
